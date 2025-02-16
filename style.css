@@ -1,0 +1,41 @@
+/*{
+    border: 1px solid red;
+}*/
+body{
+    margin: 0;
+    background-color: rgb(245, 230, 210);
+}
+h1{
+    margin: 0;
+}
+.encabezado{
+    border: 0;
+    text-align: center;
+    background-color: white;
+}
+.encapubl{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.publicaciones{
+    margin: 0 auto;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    background-color: rgb(245, 230, 210);
+}
+.publicacion{
+    margin: 0;
+    width: 400px;
+    padding: 5px;
+    background-color: white;
+}
+img{
+    margin: 0;
+    width: 388px;
+    height: 388px;
+    padding: 5px;
+}
